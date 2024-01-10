@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.upto img{
+    width: 100%;
+}
+
+
+
+.kola{
+    background-color: #00685f;
+}
+
+.container{
+    
+    padding: 20px;
+}
+
+.group { 
+    position:relative; 
+    margin-bottom:25px; 
+  }
+  input {
+    font-size:14px;
+    padding:10px 10px 10px 12px;
+    display:block;
+    width:100%;
+    border:none;
+    border:1px solid #fff;
+    background-color: transparent;
+    padding-top: 13px;padding-bottom: 13px;
+    color: white;
+    border-radius: 5px;
+  }
+  input:focus 		{ outline:none;
+    border:1px solid #91ff00;
+}
+  
+  /* LABEL ======================================= */
+  label {
+    color:white; 
+    font-size:14px;
+    font-weight:normal;
+    position:absolute;
+    pointer-events:none;
+    left:10px;
+    top:15px;
+    transition:0.2s ease all; 
+    -moz-transition:0.2s ease all; 
+    -webkit-transition:0.2s ease all;
+  }
+  
+  /* active state */
+  input:focus ~ label, input:valid ~ label {
+    top:-22px;
+    left:0px;
+    color:white;
+  }
+
+.pp2{
+    float: right;
+    color: white;
+    margin-top: 6px;
+}
+.g2{
+    margin-top: 112px;
+}
+
+
+button{
+    background: #b6ff00;
+    color: #00685e;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 40px;
+    font-weight: 600;
+}
+
+.inder img{
+    width: 100%;
+    margin-top: 30px;
+}
+
+
+.pola img{
+    width: 100%;
+}
+
+/*  */
+
+
+form p{
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 7px;
+}
+
+.clear .nar1{
+    width: 100%;
+    
+}
+.clear .nar{
+    display: flex;
+    width: 100%;
+    
+}
+.clear .nar input{
+    width: 100%;
+}
+
+.clear .nar2{
+    margin-left: 15px;
+}
+
+input::placeholder{
+    color: #d0d0d0;
+}
+
+.ttn2{
+    margin-bottom: 40px;
+}
